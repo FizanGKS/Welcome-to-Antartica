@@ -1,0 +1,41 @@
+body {
+    background-color: #F6F9F4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centering the navbar vertically */
+    padding-top: 50px; /* Space from the top of the page */
+  }
+  
+  .navbar {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)); /* Glossy effect */
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  
+  .navbar button {
+    background-color: #ED978F;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .navbar button:hover {
+    background-color: #D47769; /* Darken the hover color slightly */
+  }
+  
